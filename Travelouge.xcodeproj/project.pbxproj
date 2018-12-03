@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16FB9A9E21B5974400454709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9A9D21B5974400454709 /* AppDelegate.swift */; };
+		16FB9AA321B5974400454709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FB9AA121B5974400454709 /* Main.storyboard */; };
+		16FB9AA621B5974400454709 /* Travelouge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9AA421B5974400454709 /* Travelouge.xcdatamodeld */; };
+		16FB9AA821B5974600454709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FB9AA721B5974600454709 /* Assets.xcassets */; };
+		16FB9AAB21B5974600454709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FB9AA921B5974600454709 /* LaunchScreen.storyboard */; };
+		16FB9AB621B5974600454709 /* TravelougeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9AB521B5974600454709 /* TravelougeTests.swift */; };
+		16FB9AC121B5974600454709 /* TravelougeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9AC021B5974600454709 /* TravelougeUITests.swift */; };
+		16FB9ACF21B5976900454709 /* TravelogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9ACE21B5976900454709 /* TravelogueViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16FB9AB221B5974600454709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16FB9A9221B5974400454709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16FB9A9921B5974400454709;
+			remoteInfo = Travelouge;
+		};
+		16FB9ABD21B5974600454709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16FB9A9221B5974400454709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16FB9A9921B5974400454709;
+			remoteInfo = Travelouge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16FB9A9A21B5974400454709 /* Travelouge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelouge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FB9A9D21B5974400454709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16FB9AA221B5974400454709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16FB9AA521B5974400454709 /* Travelouge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Travelouge.xcdatamodel; sourceTree = "<group>"; };
+		16FB9AA721B5974600454709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16FB9AAA21B5974600454709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16FB9AAC21B5974600454709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16FB9AB121B5974600454709 /* TravelougeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelougeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FB9AB521B5974600454709 /* TravelougeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelougeTests.swift; sourceTree = "<group>"; };
+		16FB9AB721B5974600454709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16FB9ABC21B5974600454709 /* TravelougeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelougeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FB9AC021B5974600454709 /* TravelougeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelougeUITests.swift; sourceTree = "<group>"; };
+		16FB9AC221B5974600454709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16FB9ACE21B5976900454709 /* TravelogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelogueViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16FB9A9721B5974400454709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FB9AAE21B5974600454709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FB9AB921B5974600454709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16FB9A9121B5974400454709 = {
+			isa = PBXGroup;
+			children = (
+				16FB9A9C21B5974400454709 /* Travelouge */,
+				16FB9AB421B5974600454709 /* TravelougeTests */,
+				16FB9ABF21B5974600454709 /* TravelougeUITests */,
+				16FB9A9B21B5974400454709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16FB9A9B21B5974400454709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16FB9A9A21B5974400454709 /* Travelouge.app */,
+				16FB9AB121B5974600454709 /* TravelougeTests.xctest */,
+				16FB9ABC21B5974600454709 /* TravelougeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16FB9A9C21B5974400454709 /* Travelouge */ = {
+			isa = PBXGroup;
+			children = (
+				16FB9A9D21B5974400454709 /* AppDelegate.swift */,
+				16FB9AA121B5974400454709 /* Main.storyboard */,
+				16FB9AA721B5974600454709 /* Assets.xcassets */,
+				16FB9ACE21B5976900454709 /* TravelogueViewController.swift */,
+				16FB9AA921B5974600454709 /* LaunchScreen.storyboard */,
+				16FB9AAC21B5974600454709 /* Info.plist */,
+				16FB9AA421B5974400454709 /* Travelouge.xcdatamodeld */,
+			);
+			path = Travelouge;
+			sourceTree = "<group>";
+		};
+		16FB9AB421B5974600454709 /* TravelougeTests */ = {
+			isa = PBXGroup;
+			children = (
+				16FB9AB521B5974600454709 /* TravelougeTests.swift */,
+				16FB9AB721B5974600454709 /* Info.plist */,
+			);
+			path = TravelougeTests;
+			sourceTree = "<group>";
+		};
+		16FB9ABF21B5974600454709 /* TravelougeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16FB9AC021B5974600454709 /* TravelougeUITests.swift */,
+				16FB9AC221B5974600454709 /* Info.plist */,
+			);
+			path = TravelougeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16FB9A9921B5974400454709 /* Travelouge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FB9AC521B5974600454709 /* Build configuration list for PBXNativeTarget "Travelouge" */;
+			buildPhases = (
+				16FB9A9621B5974400454709 /* Sources */,
+				16FB9A9721B5974400454709 /* Frameworks */,
+				16FB9A9821B5974400454709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travelouge;
+			productName = Travelouge;
+			productReference = 16FB9A9A21B5974400454709 /* Travelouge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16FB9AB021B5974600454709 /* TravelougeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FB9AC821B5974600454709 /* Build configuration list for PBXNativeTarget "TravelougeTests" */;
+			buildPhases = (
+				16FB9AAD21B5974600454709 /* Sources */,
+				16FB9AAE21B5974600454709 /* Frameworks */,
+				16FB9AAF21B5974600454709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16FB9AB321B5974600454709 /* PBXTargetDependency */,
+			);
+			name = TravelougeTests;
+			productName = TravelougeTests;
+			productReference = 16FB9AB121B5974600454709 /* TravelougeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16FB9ABB21B5974600454709 /* TravelougeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FB9ACB21B5974600454709 /* Build configuration list for PBXNativeTarget "TravelougeUITests" */;
+			buildPhases = (
+				16FB9AB821B5974600454709 /* Sources */,
+				16FB9AB921B5974600454709 /* Frameworks */,
+				16FB9ABA21B5974600454709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16FB9ABE21B5974600454709 /* PBXTargetDependency */,
+			);
+			name = TravelougeUITests;
+			productName = TravelougeUITests;
+			productReference = 16FB9ABC21B5974600454709 /* TravelougeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16FB9A9221B5974400454709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Anand Kulkarni";
+				TargetAttributes = {
+					16FB9A9921B5974400454709 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					16FB9AB021B5974600454709 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16FB9A9921B5974400454709;
+					};
+					16FB9ABB21B5974600454709 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16FB9A9921B5974400454709;
+					};
+				};
+			};
+			buildConfigurationList = 16FB9A9521B5974400454709 /* Build configuration list for PBXProject "Travelouge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16FB9A9121B5974400454709;
+			productRefGroup = 16FB9A9B21B5974400454709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16FB9A9921B5974400454709 /* Travelouge */,
+				16FB9AB021B5974600454709 /* TravelougeTests */,
+				16FB9ABB21B5974600454709 /* TravelougeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16FB9A9821B5974400454709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FB9AAB21B5974600454709 /* LaunchScreen.storyboard in Resources */,
+				16FB9AA821B5974600454709 /* Assets.xcassets in Resources */,
+				16FB9AA321B5974400454709 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FB9AAF21B5974600454709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FB9ABA21B5974600454709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16FB9A9621B5974400454709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FB9A9E21B5974400454709 /* AppDelegate.swift in Sources */,
+				16FB9AA621B5974400454709 /* Travelouge.xcdatamodeld in Sources */,
+				16FB9ACF21B5976900454709 /* TravelogueViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FB9AAD21B5974600454709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FB9AB621B5974600454709 /* TravelougeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FB9AB821B5974600454709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FB9AC121B5974600454709 /* TravelougeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16FB9AB321B5974600454709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16FB9A9921B5974400454709 /* Travelouge */;
+			targetProxy = 16FB9AB221B5974600454709 /* PBXContainerItemProxy */;
+		};
+		16FB9ABE21B5974600454709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16FB9A9921B5974400454709 /* Travelouge */;
+			targetProxy = 16FB9ABD21B5974600454709 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16FB9AA121B5974400454709 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16FB9AA221B5974400454709 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16FB9AA921B5974600454709 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16FB9AAA21B5974600454709 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16FB9AC321B5974600454709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16FB9AC421B5974600454709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16FB9AC621B5974600454709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Travelouge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arktk8-mail.missouri.edu.Travelouge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16FB9AC721B5974600454709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Travelouge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arktk8-mail.missouri.edu.Travelouge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16FB9AC921B5974600454709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelougeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arktk8-mail.missouri.edu.TravelougeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travelouge.app/Travelouge";
+			};
+			name = Debug;
+		};
+		16FB9ACA21B5974600454709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelougeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arktk8-mail.missouri.edu.TravelougeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travelouge.app/Travelouge";
+			};
+			name = Release;
+		};
+		16FB9ACC21B5974600454709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelougeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arktk8-mail.missouri.edu.TravelougeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travelouge;
+			};
+			name = Debug;
+		};
+		16FB9ACD21B5974600454709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelougeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arktk8-mail.missouri.edu.TravelougeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travelouge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16FB9A9521B5974400454709 /* Build configuration list for PBXProject "Travelouge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FB9AC321B5974600454709 /* Debug */,
+				16FB9AC421B5974600454709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FB9AC521B5974600454709 /* Build configuration list for PBXNativeTarget "Travelouge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FB9AC621B5974600454709 /* Debug */,
+				16FB9AC721B5974600454709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FB9AC821B5974600454709 /* Build configuration list for PBXNativeTarget "TravelougeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FB9AC921B5974600454709 /* Debug */,
+				16FB9ACA21B5974600454709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FB9ACB21B5974600454709 /* Build configuration list for PBXNativeTarget "TravelougeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FB9ACC21B5974600454709 /* Debug */,
+				16FB9ACD21B5974600454709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16FB9AA421B5974400454709 /* Travelouge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16FB9AA521B5974400454709 /* Travelouge.xcdatamodel */,
+			);
+			currentVersion = 16FB9AA521B5974400454709 /* Travelouge.xcdatamodel */;
+			path = Travelouge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16FB9A9221B5974400454709 /* Project object */;
+}
