@@ -14,8 +14,8 @@
 		16FB9AAB21B5974600454709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FB9AA921B5974600454709 /* LaunchScreen.storyboard */; };
 		16FB9AB621B5974600454709 /* TravelougeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9AB521B5974600454709 /* TravelougeTests.swift */; };
 		16FB9AC121B5974600454709 /* TravelougeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9AC021B5974600454709 /* TravelougeUITests.swift */; };
-		16FB9ACF21B5976900454709 /* TravelogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9ACE21B5976900454709 /* TravelogueViewController.swift */; };
 		16FB9AD121B5A48C00454709 /* TripsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9AD021B5A48C00454709 /* TripsDetailViewController.swift */; };
+		16FB9AD321B5F0C200454709 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FB9AD221B5F0C200454709 /* TripViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		16FB9ABC21B5974600454709 /* TravelougeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelougeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FB9AC021B5974600454709 /* TravelougeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelougeUITests.swift; sourceTree = "<group>"; };
 		16FB9AC221B5974600454709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16FB9ACE21B5976900454709 /* TravelogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelogueViewController.swift; sourceTree = "<group>"; };
 		16FB9AD021B5A48C00454709 /* TripsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsDetailViewController.swift; sourceTree = "<group>"; };
+		16FB9AD221B5F0C200454709 /* TripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 				16FB9A9D21B5974400454709 /* AppDelegate.swift */,
 				16FB9AA121B5974400454709 /* Main.storyboard */,
 				16FB9AA721B5974600454709 /* Assets.xcassets */,
-				16FB9ACE21B5976900454709 /* TravelogueViewController.swift */,
 				16FB9AA921B5974600454709 /* LaunchScreen.storyboard */,
+				16FB9AD221B5F0C200454709 /* TripViewController.swift */,
 				16FB9AD021B5A48C00454709 /* TripsDetailViewController.swift */,
 				16FB9AAC21B5974600454709 /* Info.plist */,
 				16FB9AA421B5974400454709 /* Travelouge.xcdatamodeld */,
@@ -263,9 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16FB9A9E21B5974400454709 /* AppDelegate.swift in Sources */,
+				16FB9AD321B5F0C200454709 /* TripViewController.swift in Sources */,
 				16FB9AA621B5974400454709 /* Travelouge.xcdatamodeld in Sources */,
 				16FB9AD121B5A48C00454709 /* TripsDetailViewController.swift in Sources */,
-				16FB9ACF21B5976900454709 /* TravelogueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
