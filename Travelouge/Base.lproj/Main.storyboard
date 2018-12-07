@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Trip Detail-->
+        <!--Entry-->
         <scene sceneID="krI-Bs-Wni">
             <objects>
-                <viewController id="VGu-RW-z3b" customClass="TripsDetailViewController" customModule="Travelouge" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VGu-RW-z3b" customClass="EntryViewController" customModule="Travelouge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gor-ha-6a6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="f3l-cJ-7br"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Trip Detail" id="DiI-QD-PXg"/>
+                    <navigationItem key="navigationItem" title="Entry" id="DiI-QD-PXg">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Rit-Wp-J0E">
+                            <connections>
+                                <action selector="saveEntry:" destination="VGu-RW-z3b" id="Fgv-kH-5qg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="contentLabel" destination="Bwd-P6-bmf" id="uIR-im-74L"/>
+                        <outlet property="dateLabel" destination="Nkr-5h-dwc" id="F7E-9r-Apo"/>
+                        <outlet property="newImage" destination="3ga-90-rbB" id="2iw-RR-9kY"/>
+                        <outlet property="titleLabel" destination="AwP-9w-eAb" id="Ejk-3f-a9I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rej-IO-gdD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -162,7 +174,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Cmv-Cp-vtc"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Trips" id="5eM-4y-wiQ"/>
+                    <navigationItem key="navigationItem" title="Trips" id="5eM-4y-wiQ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="RKV-an-oTJ"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W7o-AC-qpy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
