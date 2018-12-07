@@ -155,7 +155,6 @@
                                             <outlet property="dateLabel" destination="0ev-Bh-jDW" id="nD0-1s-Pm4"/>
                                             <outlet property="newImage" destination="PhE-6R-k9P" id="ZEK-0Y-weK"/>
                                             <outlet property="titleLabel" destination="W6f-Me-Bgx" id="SbS-Lu-5KL"/>
-                                            <segue destination="VGu-RW-z3b" kind="show" id="Mf8-ud-0yo"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -175,8 +174,16 @@
                         <viewLayoutGuide key="safeArea" id="Cmv-Cp-vtc"/>
                     </view>
                     <navigationItem key="navigationItem" title="Trips" id="5eM-4y-wiQ">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="RKV-an-oTJ"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="RKV-an-oTJ">
+                            <connections>
+                                <action selector="addEntry:" destination="FaK-Mm-Vgi" id="BgC-1r-Vsl"/>
+                                <segue destination="VGu-RW-z3b" kind="show" identifier="showEntry" id="8QN-Uv-ugm"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tripsTableView" destination="1ib-gw-dup" id="zYT-DM-vBf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W7o-AC-qpy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
