@@ -93,7 +93,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tripCell" rowHeight="75" id="M3v-GF-ZB1">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tripCell" rowHeight="75" id="M3v-GF-ZB1" customClass="TripsTableViewCell" customModule="Travelouge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M3v-GF-ZB1" id="S0M-CW-VbA">
@@ -139,6 +139,10 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="contentLabel" destination="tOc-8d-FJm" id="ITW-fI-Lxp"/>
+                                            <outlet property="dateLabel" destination="0ev-Bh-jDW" id="nD0-1s-Pm4"/>
+                                            <outlet property="newImage" destination="PhE-6R-k9P" id="ZEK-0Y-weK"/>
+                                            <outlet property="titleLabel" destination="W6f-Me-Bgx" id="SbS-Lu-5KL"/>
                                             <segue destination="VGu-RW-z3b" kind="show" id="Mf8-ud-0yo"/>
                                         </connections>
                                     </tableViewCell>
@@ -159,11 +163,6 @@
                         <viewLayoutGuide key="safeArea" id="Cmv-Cp-vtc"/>
                     </view>
                     <navigationItem key="navigationItem" title="Trips" id="5eM-4y-wiQ"/>
-                    <connections>
-                        <outlet property="content" destination="tOc-8d-FJm" id="BBF-9J-ud8"/>
-                        <outlet property="date" destination="0ev-Bh-jDW" id="ghE-cx-oCi"/>
-                        <outlet property="title" destination="W6f-Me-Bgx" id="8Mg-gh-Jem"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W7o-AC-qpy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

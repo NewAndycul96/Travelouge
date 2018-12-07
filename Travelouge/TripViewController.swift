@@ -10,10 +10,6 @@ import UIKit
 
 class TripViewController: UIViewController {
 
-    @IBOutlet weak var image: UIImageView!
-    @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var content: UILabel!
-    @IBOutlet weak var date: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
