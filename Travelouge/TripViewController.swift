@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 
-class TripViewController: UIViewController {
+class TripViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
     @IBOutlet weak var tripsTableView: UITableView!
     
@@ -53,9 +53,29 @@ class TripViewController: UIViewController {
         destination.trip = newtrips[selectedRow]
     }
     
-    @IBAction func addEntry(_ sender: Any) {
+    @IBAction func addtrip(_ sender: Any) {
         performSegue(withIdentifier: "showEntry", sender: self)
     }
     
-
+    func deleteTrip(at indexPath: IndexPath) {
+        let trip = Trips[IndexPath.row]
+        
+        guard let managedContext = trip.managedObjectsContext else {
+            return
+        }
+        
+        managedContext.delete(trip)
+        
+        do {
+            try managedContext.save()
+            
+            trip.remove(at: indexPath.row)
+            
+            tripsTableView.deleteRows(at: [indexPath], with: .automatic)
+        } catch {
+            print("could not delete")
+            
+            tripsTableView.reloadRows(at: [indexPath], with: .automatic)
+        }
+    }
 }

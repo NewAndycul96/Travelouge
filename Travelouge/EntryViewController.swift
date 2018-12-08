@@ -14,6 +14,9 @@ class EntryViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var contentLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    
+    var trip: Trips?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,17 +37,16 @@ class EntryViewController: UIViewController {
         } catch {
             print("Could Not Save Entry")
         }
-    }
+        
+        let title = titleLabel.text
+        let content = contentLabel.text
+        let date = dateLabel.text
+        let image = newImage.image
+        
+
+        }
+        
+        
+}
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
